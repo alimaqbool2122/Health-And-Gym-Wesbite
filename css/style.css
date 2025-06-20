@@ -1,0 +1,235 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2025 @Malik Ali
+ */
+
+
+
+
+/* CSS Index
+----------------------------------
+1. Theme default css
+2. Header
+3. Slider
+4. Features
+5. Services
+6. Video
+7. Gallery
+8. Fact
+9. Faq
+10. Pricing
+11. Doctors
+12. Product
+13. Blog
+14. Pagination
+15. Brand
+16. Newsletter
+17. Footer
+18. Preloader
+
+*/
+
+/* 1. Theme default css */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,500i,600,600i,700,800,900&display=swap');
+
+
+/*-----------------------------------*\
+    #RESET
+\*-----------------------------------*/
+
+  *,
+  *::before,
+  *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  li {
+      list-style: none;
+  }
+  
+  a,
+  img,
+  span,
+  input,
+  button,
+  ion-icon {
+      display: block;
+  }
+  
+  a {
+      color: inherit;
+      text-decoration: none;
+  }
+  
+  img {
+      height: auto;
+  }
+  
+  input,
+  button {
+      background: none;
+      border: none;
+      font: inherit;
+      color: inherit;
+  }
+  
+
+  button{
+    padding: 1px 6px;
+  }
+
+
+  input {
+      width: 100%;
+      outline: none;
+  }
+  
+  button {
+      cursor: pointer;
+  }
+  
+  ion-icon {
+      pointer-events: none;
+  }
+  
+  address {
+      font-style: normal;
+  }
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #747373;
+}
+
+
+
+a:focus,
+.btn:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+a,
+button {
+    color: #1696e7;
+    outline: medium none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #062a4d;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #747373;
+    margin-bottom: 15px;
+}
+
+
+
+.container{
+    width: 100%;
+    padding-inline: 15px;
+    margin-inline: auto;
+}
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: -15px;
+}
+
+
+
+
+
+/*-----------------------------------*\
+    #PRELOADER
+\*-----------------------------------*/
+
+
+
+
+
+
+/*-----------------------------------*\
+    #HEADER
+\*-----------------------------------*/
